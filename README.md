@@ -16,5 +16,12 @@
   1. Pass a secret to a step as an environment variable
   2. Use it in a shell command without ever hardcoding it
    3. Add DOCKER_USERNAME and DOCKER_TOKEN as secrets (you'll need these on Day 45)
+      
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/a972747c-d705-47bd-9733-275dbbf6b46d" />
 
+## Task 3: Upload Artifacts
+
+  1. Create a step that generates a file — e.g., a test report or a log file
+  2. Use actions/upload-artifact to save it
+  3. After the workflow runs, download the artifact from the Actions tab
 
