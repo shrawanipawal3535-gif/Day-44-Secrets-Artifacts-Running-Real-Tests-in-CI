@@ -16,3 +16,5 @@
   1. Pass a secret to a step as an environment variable
   2. Use it in a shell command without ever hardcoding it
    3. Add DOCKER_USERNAME and DOCKER_TOKEN as secrets (you'll need these on Day 45)
+
+
