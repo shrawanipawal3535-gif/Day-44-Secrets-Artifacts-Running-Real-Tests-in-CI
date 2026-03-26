@@ -56,4 +56,6 @@ Take any script from your earlier days (Python or Shell) and run it in CI:
   2. Run it twice — observe the time difference
   3. Write in your notes: What is being cached and where is it stored?
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/da24db93-08f1-408c-bd84-d20777fb6ab0" />
+
 
