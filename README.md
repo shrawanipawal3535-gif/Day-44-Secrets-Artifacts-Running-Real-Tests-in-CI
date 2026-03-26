@@ -33,3 +33,27 @@
   1. Job 1: generate a file and upload it as an artifact
   2. Job 2: download the artifact from Job 1 and use it (print its contents)
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/64f47591-7012-49fa-81fa-3b71ef248eef" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/5077582a-aaf9-40a1-859b-7852741abf9e" />
+
+## Task 5: Run Real Tests in CI
+
+Take any script from your earlier days (Python or Shell) and run it in CI:
+
+  1. Add your script to the github-actions-practice repo
+  2. Write a workflow that:
+      - Checks out the code
+      - Installs any dependencies needed
+       -  Runs the script
+      - Fails the pipeline if the script exits with a non-zero code
+ 3. Intentionally break the script — verify the pipeline goes red
+ 4. Fix it — verify it goes green again
+
+## Task 6: Caching
+
+  1. Add actions/cache to a workflow that installs dependencies
+  2. Run it twice — observe the time difference
+  3. Write in your notes: What is being cached and where is it stored?
+
+
