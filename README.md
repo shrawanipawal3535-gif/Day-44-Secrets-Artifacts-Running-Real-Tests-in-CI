@@ -25,3 +25,11 @@
   2. Use actions/upload-artifact to save it
   3. After the workflow runs, download the artifact from the Actions tab
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/90d9341d-7ed5-43e5-b088-79213392a15b" />
+<img width="856" height="444" alt="Image" src="https://github.com/user-attachments/assets/8371bf50-caeb-4cd4-92fc-4fdc1ac532ec" />
+
+## Task 4: Download Artifacts Between Jobs
+
+  1. Job 1: generate a file and upload it as an artifact
+  2. Job 2: download the artifact from Job 1 and use it (print its contents)
+
